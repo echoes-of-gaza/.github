@@ -1,0 +1,39 @@
+name: Requirement
+description: A requirement from the Requirements & Technical Plan (FR-/NFR-…)
+title: "[FR-XXX-00] "
+labels: ["requirement"]
+body:
+  - type: input
+    id: req_id
+    attributes:
+      label: Requirement ID
+      placeholder: FR-AUTH-01
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options: ["MUST", "SHOULD", "NICE"]
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: ["Mobile", "Web / Console", "Supabase", "AI / Search", "Eval", "Store / Docs"]
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Testable criteria copied from the plan
+    validations:
+      required: true
