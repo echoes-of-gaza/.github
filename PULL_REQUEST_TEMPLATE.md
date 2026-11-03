@@ -1,18 +1,18 @@
 ## What & why
 
-<!-- One or two sentences. Link the requirement(s): FR-…, NFR-… and the issue: Closes #… -->
-
-## Area
-
-- [ ] Mobile (Flutter)
-- [ ] Web (Console / public site)
-- [ ] Supabase (migrations / RPC / RLS / Edge Functions)
-- [ ] Eval / docs / CI
+<!-- One or two sentences. Requirement ID(s) (FR-…, NFR-…) and the issue: Closes #… -->
 
 ## Checklist
 
-- [ ] CI is green (lint + tests)
-- [ ] New migration is numbered and does not edit a merged one
-- [ ] RLS / anonymity impact considered (pgTAP test added if it touches author data)
-- [ ] No secrets or real user data committed
-- [ ] Screenshots attached for UI changes (Arabic RTL checked)
+- [ ] Commit subjects follow conventional commits (`feat(scope): …`, `fix(scope): …`)
+- [ ] **Docs updated in this PR** — README, overviews, architecture notes or
+      ADRs that this change makes stale
+- [ ] **Paths updated** — anything moved or renamed is updated in every link,
+      import, script and CI path filter that names it
+- [ ] **No secrets** — no keys, tokens, `.env`, keystores or service files;
+      secrets live only in the platform secret stores
+- [ ] No real personal data in code, seeds, tests or screenshots
+- [ ] Local checks pass and CI is green
+- [ ] UI changes: screenshots attached, Arabic (RTL) and English checked
+
+<!-- Repository-specific rules: AGENTS.md at the root of each repository. -->
