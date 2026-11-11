@@ -6,4 +6,10 @@ Places may change or disappear; memories remain. Anyone can browse a map of Gaza
 
 Graduation project — University of Palestine, Faculty of Software Engineering & AI.
 
-**Stack:** Flutter · Next.js · Supabase (Postgres, PostGIS, pgvector) · hybrid Arabic/English search
+**Stack:** Flutter · NestJS · Next.js · Supabase (Postgres, PostGIS, pgvector, Auth, Storage) · hybrid Arabic/English search
+
+| Repository | What |
+| --- | --- |
+| `mobile` | The Flutter app for Android and iOS |
+| `backend` | The NestJS API, and the product docs: requirements and decisions |
+| `dashboard` | The Next.js moderation console, admin panel and public pages |
