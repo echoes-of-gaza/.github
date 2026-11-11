@@ -15,4 +15,4 @@
 - [ ] Local checks pass and CI is green
 - [ ] UI changes: screenshots attached, Arabic (RTL) and English checked
 
-<!-- Repository-specific rules: AGENTS.md at the root of each repository. -->
+<!-- Repository-specific rules: AGENTS.md at the root of each repository. Product docs: echoes-of-gaza/backend/docs. -->
